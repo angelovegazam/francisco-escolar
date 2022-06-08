@@ -1,0 +1,176 @@
+/* CONFIGURACIONES GENERALES */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: whitesmoke;
+}
+
+.body {
+    min-width: 100%;
+    max-width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* CONFIGURACIONES GENERALES */
+
+
+
+/* CONFIGURACINES DEL LOGIN */
+.main-login {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: center;
+}
+.main-login form {
+    background-color: #0288d1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.form-login-input {
+    box-shadow: 1px 1px 5px #999;
+    border-style: hidden;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    margin: 15px 20px;
+    padding: 10px;
+}
+
+.boton-submit {
+    background-color: #98ee99;
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+.boton-submit:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.boton-submit:active {
+    background-color: #66bb6a;
+    color: whitesmoke;
+}
+/* CONFIGURACINES DEL LOGIN */
+
+
+
+/* CONFIGURACINES DEL INDEX */
+.main-consultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.contenedor-tablas {
+    background-color: #004c8c;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #999;
+    color: white;
+    margin: 25px;
+    padding: 25px;
+}
+/* CONFIGURACINES DEL INDEX */
+
+
+
+/* CONFIGURACINES DEL REGISTRO */
+.main-registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+input, .input {
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 1px 1px 3px #999;
+}
+
+
+.form-datos-grupos {
+    background-color: #004c8c;
+    text-align: center;
+    min-width: 300px;
+    max-width: 900px;
+    height: auto;
+    padding: 30px 5px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+
+/* CONFIGURACINES DEL REGISTRO */
+
+
+
+.titulos {
+    font-size: 16px;
+}
+
+.sub-titulos {
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+
+.form-boton-submit:hover {
+    background-color: #98ee99;
+    cursor: pointer;
+}
+
+.form-boton-submit:active {
+    background-color: #66bb6a;
+}
+
+.tablas tr td {
+    padding: 1px 15px;
+    border: solid 1px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.menu-info-botones, #menu-info-botones a {
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 1px 1px 3px #999;
+}
